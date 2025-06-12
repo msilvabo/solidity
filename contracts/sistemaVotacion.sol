@@ -87,6 +87,7 @@ contract sistemaVotacion{
         return (_ids, _siglas, _candidatos, _nroVotos);
     }
 
+
     function ganador() public votacionAbierta view returns (
         Partido memory
     ) {
